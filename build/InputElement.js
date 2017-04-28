@@ -58,7 +58,7 @@ var _initialiseProps = function _initialiseProps() {
     this.defaultCharsRules = {
         "9": "[0-9]",
         "a": "[A-Za-z]",
-        "*": "[A-Za-z0-9]"
+        "*": "[A-Za-z0-9-]"
     };
     this.defaultMaskChar = "_";
     this.lastCaretPos = null;
