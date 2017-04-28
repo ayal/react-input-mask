@@ -17,7 +17,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var React = require("react");
 
 var InputElement = function (_React$Component) {
-    _inherits(InputElement, _React$Component);
+console.log("InputElement contructor");
+_inherits(InputElement, _React$Component);
 
     function InputElement(props) {
         _classCallCheck(this, InputElement);
